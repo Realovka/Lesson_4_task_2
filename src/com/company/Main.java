@@ -17,9 +17,7 @@ public class Main {
             a += 2;
 
         }
-        System.out.print(Arrays.toString(array));
-
-        System.out.println();
+        System.out.println(Arrays.toString(array));
 
         for (int i = array.length - 1; i >= 0; i--) {
             System.out.print(array[i] + " ");
